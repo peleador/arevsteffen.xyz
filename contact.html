@@ -1,0 +1,161 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Contact - Arev Steffen Portfolio - Digital Designer - UX</title>
+  <meta name="description" content="Arev Steffen Portfolio Contact form">
+  <meta name="keywords" content="arev steffen, portfolio, design, porto alegre, UX design, UI design, webdesign, design gráfico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="ArevSteffen">
+  <link rel="icon" type="image/jpg" href="img/icon.jpg" />
+
+<!--Style-->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class="preloader" id="preloader">
+    <div class="item">
+      <div class="spinner">
+      </div>
+    </div>
+</div>
+
+<div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+        </div>
+
+    <ul class="menu-fullscreen">
+      <li><a href="index-fixed.html">Portfolio</a></li>
+      <li><a href="about-me.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</div>
+
+
+  <!--Header-->
+  <header id="fullscreen">
+
+      <div class="logo" id="full"><a href="index-fixed.html">AREV STEFFEN</a></div>
+
+        <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+        </div>
+
+  </header>
+
+  <div class="clear"></div>
+
+  <!--Content-->
+
+  <div class="content" id="ajax-content">
+
+        <div class="text-intro">
+
+          <h1>Hit me UP!</h1>
+          <p>Open for collabs and freelance work. Let's conect?</p>
+
+          <form method="post" action="?" data-jkit="[form:validateonly=true]">
+
+          <div class="contact-one">
+            <p>
+              <label for="miniusername">Name</label><br />
+              <input name="miniusername" id="miniusername" data-jkit="[validate:required=true;min=3;max=10;error=Please let me know your name?]">
+            </p>
+          </div>
+
+          <div class="contact-two">
+            <p>
+              <label for="miniemail">Email:</label><br />
+              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email!]">
+            </p>
+          </div>
+
+          <div class="contact-three">
+            <p>
+              <label>Message:</label><br />
+              <textarea id="message" name="message"></textarea><br/><br/>
+
+              <input class="button-submit" name="send" type="submit" value="SEND" />
+            </p>
+          </div>
+
+            <p>
+            </p>
+          </form>
+
+
+        </div>
+
+	<br/><br/><br/><br/><br/><br/><br/><br/>
+  </div>
+
+
+
+
+  <!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
+
+  <!--Footer-->
+  <footer>
+
+    <div class="footer-margin">
+      <div class="social-footer">
+        <a target="_blank" href="https://twitter.com/arev_steffen"><i class="fa fa-twitter"></i></a>
+        <a target="_blank" href="https://www.behance.net/arevvoluti8870"><i class="fa fa-behance"></i></a>
+        <a target="_blank" href="https://www.instagram.com/arevsteffen/"><i class="fa fa-instagram"></i></a>
+
+      </div>
+      <div class="copyright">2018 - Arev Steffen. All Rights Reserved.</div>
+
+
+
+    </div>
+
+
+  </footer>
+
+
+<!--Scripts-->
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+  <script src="js/script.js" type="text/javascript"></script>
+
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
+
+
+</body>
+</html>
